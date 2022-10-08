@@ -12,11 +12,11 @@ int main(void)
 	printf("Input the second number\n");
 	scanf("%d", ptr_secondNum); //Get second value from user
 
-	//check if First valur is greater than second
+	//check if first value is greater than second
 	if(*ptr_firstNum > *ptr_secondNum)
 		printf("%d is the maximum number\n", *ptr_firstNum);
-	else if(*ptr_secondNum > *ptr_firstNum)
+	else if(*ptr_secondNum > *ptr_firstNum) // check if second value greater than first
 		printf("%d is the greater number\n", *ptr_secondNum);
 	else
-		printf("Both numbers are equal\n");
+		printf("Both numbers are equal\n"); //check if both numbers are equal
 }
